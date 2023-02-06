@@ -1,0 +1,19 @@
+.background_panel_wrapper{
+
+}
+.background_panel_wrapper input{
+    width:100%
+}
+
+.upload-img-popup{
+    margin-top: 5px;
+    width: 95%;
+    background-color: #002663;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

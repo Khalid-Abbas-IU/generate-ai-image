@@ -1,0 +1,30 @@
+.editor-left-menu{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2a343e;
+}
+.fab-icon-button{
+    width: 100%;
+    margin-top: 1px;
+    cursor: pointer;
+    padding: 10px 8px;
+    border-radius: 2px;
+    text-align: center;
+}
+.fab-icon-button img{
+    margin: 5px 0;
+}
+.selected_panel{
+    background: #394754
+}
+.fab-icon-button:hover{
+    background: #394754
+}
+.center-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

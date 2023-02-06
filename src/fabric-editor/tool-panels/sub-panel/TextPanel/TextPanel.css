@@ -1,0 +1,17 @@
+.text-panel-wrapper{
+    margin: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.add-text-btn{
+    margin-top: 8px;
+    background-color: #002663;
+    width: 100%;
+}
+
+.add-text-span{
+    align-self: flex-start;
+    font-weight: bold;
+}

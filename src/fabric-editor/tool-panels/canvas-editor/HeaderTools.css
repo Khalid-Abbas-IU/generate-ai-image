@@ -1,0 +1,19 @@
+.zoom_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgb(0 0 0 / 10%) 0px 1px 3px 0px, rgb(0 0 0 / 6%) 0px 1px 2px 0px;
+}
+.zoom_wrapper span{
+    border-radius: 2px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    margin: 0 5px;
+    border: 1px solid rgba(192, 192, 192, 0.57);
+}
+.zoom_wrapper span:hover{
+    background-color: #8f8f8f;
+}

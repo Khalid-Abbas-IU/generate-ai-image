@@ -1,0 +1,11 @@
+.shapes-panel-wrapper{
+    margin: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.shapes-heading{
+    align-self: flex-start;
+}

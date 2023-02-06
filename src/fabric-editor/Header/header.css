@@ -1,0 +1,73 @@
+.separate-section-baar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    background-color: #002663;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-weight: 500;
+    padding: 0 16px;
+}
+.section-sperator-text{
+    padding: 30px 0px;
+}
+.share-btn{
+    margin-right: 10px;
+    min-width: 140px;
+    font-size: 16px;
+    background: #2ecc8f;
+}
+.share-btn:hover{
+    color: #fff;
+    background: #1c634d;
+}
+
+.done-btn{
+    background: #8f4c34;
+    font-size: 16px;
+}
+.done-btn:hover{
+    color: #fff;
+    background: #b08474;
+}
+.left-section{
+    display: flex;
+}
+
+.input-text{
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+
+}
+
+.header-tools{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    margin-right: 30px;
+}
+
+.delete-icon{
+    cursor: pointer;
+}
+.delete-icon:hover{
+    opacity: 0.6;
+}
+.input-url-wrapper{
+    margin-left: 100px;
+}
+.add-url-btn{
+    cursor: pointer;
+    background-color: #25579d;
+    height: 38px;
+    color: #b9b9b9;
+    border-radius: 4px;
+    margin: 0 5px;
+}
+.add-url-btn:hover{
+    background-color: #3063ab;
+    color: #dbd8d8;
+}
