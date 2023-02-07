@@ -1,12 +1,19 @@
 import React, {useState} from 'react';
 import './Shapes.css'
-import image1 from "../../../../assets/images/room.jpg";
+import rect from "../../../../assets/svgs/black-large-square-svgrepo-com.svg";
+import star from "../../../../assets/svgs/3d-star.svg";
+import blueCircle from "../../../../assets/svgs/blue-circle.svg";
+import circle from "../../../../assets/svgs/blue-circle-svgrepo-com.svg";
+import sd from "../../../../assets/svgs/1354707850.svg";
 import image2 from "../../../../assets/images/room1.jpg";
 import ImagesPanel from "../../left-panel/tab-panels/ImagesPanel";
-const apiImages = [image1,image2,image1,image2,image1,image2,image1,image1,image2,image1,image2,image1,image1,image2,image1,image2,image1,image1,image2,image1,image2,image1]
+const apiImages = [rect,
+    star,
+    blueCircle,
+    circle,
+    sd]
 
 const Shapes =()=>{
-    const [apiImages] = useState([image1,image2,image1,image2,image1,image2,image1,image1,image2,image1,image2,image1,image1,image2,image1,image2,image1,image1,image2,image1,image2,image1])
     const addImageIntoCanvas=()=>{
         //TODO: you can write code here.
     }

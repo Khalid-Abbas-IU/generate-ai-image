@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9520e633-cb7a-456a-82c2-78b0d0123cce" name="Default Changelist" comment="" />
+    <list default="true" id="9520e633-cb7a-456a-82c2-78b0d0123cce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/svgs/1354707850.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svgs/3d-star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svgs/black-large-square-svgrepo-com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svgs/blue-circle-svgrepo-com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/svgs/blue-circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fabric-editor/tool-panels/sub-panel/Shapes/Shapes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/fabric-editor/tool-panels/sub-panel/Shapes/Shapes.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +36,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/svgs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -38,6 +46,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Abbas\WebstormProjects\gen-ai-image\src\assets\svgs" />
       <recent name="C:\Users\Abbas\WebstormProjects\gen-ai-image\src" />
       <recent name="C:\Users\Abbas\WebstormProjects\gen-ai-image\src\assets\images" />
     </key>
@@ -54,7 +63,8 @@
       <option name="presentableId" value="Default" />
       <updated>1675358459869</updated>
       <workItem from="1675358463255" duration="219000" />
-      <workItem from="1675697374943" duration="14369000" />
+      <workItem from="1675697374943" duration="15669000" />
+      <workItem from="1675786687232" duration="621000" />
     </task>
     <servers />
   </component>
@@ -71,5 +81,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
