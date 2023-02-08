@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9520e633-cb7a-456a-82c2-78b0d0123cce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/svgs/1354707850.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svgs/3d-star.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svgs/black-large-square-svgrepo-com.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svgs/blue-circle-svgrepo-com.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svgs/blue-circle.svg" afterDir="false" />
+    <list default="true" id="9520e633-cb7a-456a-82c2-78b0d0123cce" name="Default Changelist" comment="shapes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/svgs/1354707850.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svgs/1354707850.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/svgs/3d-star.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svgs/3d-star.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/svgs/blue-circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svgs/blue-circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fabric-editor/tool-panels/left-panel/tab-panels/ImagesPanel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/fabric-editor/tool-panels/left-panel/tab-panels/ImagesPanel.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fabric-editor/tool-panels/sub-panel/Shapes/Shapes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/fabric-editor/tool-panels/sub-panel/Shapes/Shapes.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,8 +63,18 @@
       <updated>1675358459869</updated>
       <workItem from="1675358463255" duration="219000" />
       <workItem from="1675697374943" duration="15669000" />
-      <workItem from="1675786687232" duration="621000" />
+      <workItem from="1675786687232" duration="2225000" />
+      <workItem from="1675835609463" duration="588000" />
+      <workItem from="1675850869739" duration="588000" />
     </task>
+    <task id="LOCAL-00001" summary="shapes">
+      <created>1675787421389</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675787421389</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,5 +91,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="shapes" />
+    <option name="LAST_COMMIT_MESSAGE" value="shapes" />
   </component>
 </project>
