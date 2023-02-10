@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9520e633-cb7a-456a-82c2-78b0d0123cce" name="Default Changelist" comment="shapes">
+      <change afterPath="$PROJECT_DIR$/src/assets/images/burger1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/svgs/1354707850.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svgs/1354707850.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/svgs/3d-star.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svgs/3d-star.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/svgs/blue-circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svgs/blue-circle.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fabric-editor/tool-panels/left-panel/tab-panels/ImagesPanel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/fabric-editor/tool-panels/left-panel/tab-panels/ImagesPanel.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fabric-editor/tool-panels/sub-panel/Shapes/Shapes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/fabric-editor/tool-panels/sub-panel/Shapes/Shapes.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fabric-editor/customComponents/DropDown.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/fabric-editor/customComponents/DropDown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fabric-editor/customComponents/DropDown.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/fabric-editor/customComponents/DropDown.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fabric-editor/tool-panels/canvas-editor/CanvasEditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/fabric-editor/tool-panels/canvas-editor/CanvasEditor.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +24,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="f66d461d-7e30-4066-a367-ede25e50dcad" />
+  </component>
   <component name="ProjectId" id="2LBxpITSJgZN16aNCs1TLYe3Lrl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -35,7 +37,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/svgs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -45,9 +47,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Abbas\WebstormProjects\gen-ai-image\src\assets\images" />
       <recent name="C:\Users\Abbas\WebstormProjects\gen-ai-image\src\assets\svgs" />
       <recent name="C:\Users\Abbas\WebstormProjects\gen-ai-image\src" />
-      <recent name="C:\Users\Abbas\WebstormProjects\gen-ai-image\src\assets\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Abbas\WebstormProjects\gen-ai-image\src\fabric-editor\tool-panels\sub-panel\UploadPanel" />
@@ -65,7 +67,11 @@
       <workItem from="1675697374943" duration="15669000" />
       <workItem from="1675786687232" duration="2225000" />
       <workItem from="1675835609463" duration="588000" />
-      <workItem from="1675850869739" duration="588000" />
+      <workItem from="1675850869739" duration="1214000" />
+      <workItem from="1675864102318" duration="723000" />
+      <workItem from="1675960438249" duration="593000" />
+      <workItem from="1676009591105" duration="35000" />
+      <workItem from="1676026604282" duration="1945000" />
     </task>
     <task id="LOCAL-00001" summary="shapes">
       <created>1675787421389</created>
@@ -74,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675787421389</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="shapes">
+      <created>1675856554492</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675856554493</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

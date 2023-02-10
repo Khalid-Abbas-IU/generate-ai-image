@@ -5,7 +5,7 @@ import LeftPanel from '../left-panel/LeftPanel';
 import DropDown from "../../customComponents/DropDown";
 import { v4 as uuid } from 'uuid';
 import {CanvasStore} from "../../../store/store";
-import image1 from "../../../assets/images/room1.jpg"
+import image1 from "../../../assets/images/burger1.png"
 let canvas,canvasDims={};
 const extraProps = [
     'name',
@@ -65,7 +65,7 @@ const CanvasEditor =()=>{
     function updateCanvasDimension(size){
         if (!canvas) return;
 
-        canvas.setZoom(size / canvas.getWidth())
+        // canvas.setZoom(size / canvas.getWidth())
         canvas.setDimensions({
             width : size,
             height : size,
