@@ -1,6 +1,24 @@
 
 import axios from "axios";
-import {PEXEL_API, PEXEL_API_KEY} from "./variables";
+import {PEXEL_API, PEXEL_API_KEY,baseUrl,generateImgIdApi} from "./variables";
+const headers = {
+    'Access-Control-Allow-Origin': '*',
+    'Content-Type': 'application/json',
+};
+const generateImageId =async (filePath)=>{
+    let payload="";
+    axios.post('http://13.250.114.171:14045/gen_engine/v0.1.0/template_images', {
+        data: {
+            // Your request data goes here
+        },
+    }, { withCredentials: true, headers }).then(response => {
+        // Handle the response
+    }).catch(error => {
+        // Handle the error
+    });
+    return payload;
+}
+
 
 const loadImages =async (query="people")=>{
     let payload;
@@ -21,6 +39,8 @@ const loadImages =async (query="people")=>{
     return payload;
 }
 
+
 export {
+    generateImageId,
     loadImages
 }

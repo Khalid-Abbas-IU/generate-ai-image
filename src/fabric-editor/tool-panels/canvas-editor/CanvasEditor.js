@@ -1,5 +1,6 @@
 import React, {useContext, useEffect, useRef, useState} from "react";
 import './index.css'
+import "../../../utils/fabricOverrids/index"
 import {fabric} from "fabric"
 import LeftPanel from '../left-panel/LeftPanel';
 import DropDown from "../../customComponents/DropDown";
@@ -32,7 +33,7 @@ const CanvasEditor =()=>{
         canvas = window.canvas = new fabric.Canvas(`gen-img-canvas`, {
             width, height,
             selection: false,
-            backgroundColor:"gray"
+            // backgroundColor:"gray"
         });
         setActiveCanvas(canvas)
         addImageToCanvas(image1,canvas)
@@ -112,7 +113,7 @@ const CanvasEditor =()=>{
                 <div className="canvas-editor-wrapper">
                     <DropDown activeCanvasSize = {activeCanvasSize} onSelectCanvasDim={onSelectCanvasDim}/>
                     <div className={`fabric-editor-pro center-content-column`}>
-                        <canvas id="gen-img-canvas"/>
+                        <canvas id="gen-img-canvas" style={{border:"2px solid #d1d1d1"}}/>
                     </div>
                 </div>
             </div>

@@ -1,13 +1,13 @@
-.background_panel_wrapper{
-
+.upload_panel_wrapper{
+    margin: 10px;
 }
-.background_panel_wrapper input{
-    width:100%
+.upload_panel_wrapper input{
+    width:100%;
+    cursor: pointer;
 }
 
 .upload-img-popup{
     margin-top: 5px;
-    width: 95%;
     background-color: #002663;
     height: 40px;
     border: none;
@@ -16,4 +16,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+
+}
+
+.uploaded-images-wrapper{
+
+}
+.uploaded-images-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+}
+.uploaded-image-item{
+   margin: 3px;
+
+}
+.uploaded-image-item img{
+    width: 100px;
+    height: 100px;
+    border: 2px solid darkgrey;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.uploaded-image-item img:hover{
+    border-color: #002663;
 }

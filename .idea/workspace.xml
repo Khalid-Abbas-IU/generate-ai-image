@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9520e633-cb7a-456a-82c2-78b0d0123cce" name="Default Changelist" comment="shapes">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/burger1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/fabricOverrids/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fabric-editor/customComponents/DropDown.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/fabric-editor/customComponents/DropDown.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fabric-editor/customComponents/DropDown.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/fabric-editor/customComponents/DropDown.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fabric-editor/tool-panels/canvas-editor/CanvasEditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/fabric-editor/tool-panels/canvas-editor/CanvasEditor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fabric-editor/tool-panels/sub-panel/GenerateImage/GenerateImage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/fabric-editor/tool-panels/sub-panel/GenerateImage/GenerateImage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fabric-editor/tool-panels/sub-panel/TextPanel/TextPanel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/fabric-editor/tool-panels/sub-panel/TextPanel/TextPanel.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fabric-editor/tool-panels/sub-panel/UploadPanel/UploadPanel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/fabric-editor/tool-panels/sub-panel/UploadPanel/UploadPanel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fabric-editor/tool-panels/sub-panel/UploadPanel/UploadPanel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/fabric-editor/tool-panels/sub-panel/UploadPanel/UploadPanel.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/apiHelpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/apiHelpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/variables.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/variables.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/utils" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -47,6 +51,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Abbas\WebstormProjects\gen-ai-image\src\utils" />
       <recent name="C:\Users\Abbas\WebstormProjects\gen-ai-image\src\assets\images" />
       <recent name="C:\Users\Abbas\WebstormProjects\gen-ai-image\src\assets\svgs" />
       <recent name="C:\Users\Abbas\WebstormProjects\gen-ai-image\src" />
