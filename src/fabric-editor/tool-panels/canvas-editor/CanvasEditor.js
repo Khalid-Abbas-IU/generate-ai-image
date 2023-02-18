@@ -1,16 +1,17 @@
 import React, {useContext, useEffect, useRef, useState} from "react";
 import './index.css'
 import "../../../utils/fabricOverrids/index"
+import "../../../utils/undo-redu-functions/undoReduFunctions"
 import {fabric} from "fabric"
 import LeftPanel from '../left-panel/LeftPanel';
 import DropDown from "../../customComponents/DropDown";
+import ToolBaar from "../../tool-baar/ToolBaar"
 import { v4 as uuid } from 'uuid';
 import {CanvasStore} from "../../../store/store";
 import image1 from "../../../assets/images/burger1.png"
 let canvas,canvasDims={};
 const extraProps = [
-    'name',
-    'custom',
+    'name', 'custom',
     'activeSide',
     'selectable',
     'draggable', 'clip_id', 'evented', 'crossOrigin',
@@ -38,19 +39,30 @@ const CanvasEditor =()=>{
         setActiveCanvas(canvas)
         addImageToCanvas(image1,canvas)
         subscribeEvents(canvas);
+        canvas?._historyInit()
     }
     function subscribeEvents(canvas) {
         canvas.on({
             'object:added': added,
             'object:scaling': objectScaling,
             'object:scaled': objectScaled,
+            'object:modified': objectModified,
             'object:moving': objectMoving,
             'object:removed': added,
         });
     }
+
+    const objectModified =()=>{
+        updateUndoRedoState(canvas);
+    }
+    const updateUndoRedoState =(canvas)=> {
+        if (!canvas || !canvas?.hasOwnProperty('_historySaveAction')) return;
+        canvas?._historySaveAction();
+    }
     const added = (e) => {
         let obj = e.target;
         if (!obj) return;
+        updateUndoRedoState(canvas);
     };
     const objectScaling = (e) => {};
     const objectScaled = (e) => {
@@ -111,6 +123,7 @@ const CanvasEditor =()=>{
             <div className="editor-main-wrapper" ref={canvasWrapper}>
                 <LeftPanel />
                 <div className="canvas-editor-wrapper">
+                    <ToolBaar/>
                     <DropDown activeCanvasSize = {activeCanvasSize} onSelectCanvasDim={onSelectCanvasDim}/>
                     <div className={`fabric-editor-pro center-content-column`}>
                         <canvas id="gen-img-canvas" style={{border:"2px solid #d1d1d1"}}/>
