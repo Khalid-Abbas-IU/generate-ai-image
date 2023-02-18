@@ -62,6 +62,7 @@ fabric.Canvas.prototype.redo = function (callback) {
 }
 fabric.Canvas.prototype._loadHistory = function(history, event) {
     var that = this;
+    if (!history) return;
     let canvasObjs = JSON.parse(history).objects;
     if(canvasObjs.length){
         that._objects=[]

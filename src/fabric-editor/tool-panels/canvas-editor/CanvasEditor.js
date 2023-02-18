@@ -56,7 +56,6 @@ const CanvasEditor =()=>{
         updateUndoRedoState(canvas);
     }
     const updateUndoRedoState =(canvas)=> {
-        if (!canvas || !canvas?.hasOwnProperty('_historySaveAction')) return;
         canvas?._historySaveAction();
     }
     const added = (e) => {
